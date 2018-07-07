@@ -1,0 +1,98 @@
+$red: #de483d;
+
+body,html {
+	padding: 0;
+	margin: 0;
+	font-size: 14px;
+}
+a {
+	text-decoration: none;
+}
+label {
+	font-weight: 700;
+}
+.border-red-wrapper {
+	display: inherit;
+}
+.btn-red {
+	background: $red;
+}
+.border-red {
+	border-right: 2px solid $red;
+	border-left: 2px solid $red;
+	padding-left: 1rem;
+	padding-right: 1rem;
+	text-transform: uppercase;
+}
+.rest {
+	color: #fff;
+	padding: 3rem;
+	opacity: .9;
+	transition: .5s opacity esea;
+	cursor: pointer;
+	&:hover {
+		opacity: 1;
+	}
+}
+section {
+	background: #000;
+	color: #fff;
+	border-top: 1px solid $red;
+	border-bottom: 1px solid $red;
+	padding: 1.5rem 0; 
+}
+.product {
+	margin-bottom: 3rem;
+}
+.rest-1 {
+	background: #110719;
+}
+.rest-2 {
+	background: #0E0A1B;
+}
+.rest-3 {
+	background: #13192F;
+}
+.rest-4 {
+	background: #13192F;
+}
+#registration {
+	.fa-times {
+		cursor: pointer;
+		font-size: 1.2rem
+	}
+	.nav-tabs {
+		cursor: pointer;
+		border: 0;
+		align-self: center;
+		h5.nav-link {
+			border: 0;
+			border-bottom: 1px solid transparent;
+			transition: .5s border-color ease;
+			&.active {
+				border: 0;
+				border-bottom: 1px solid $red;
+			}
+			&:hover,
+			&.active {
+				border-bottom: 1px solid $red;
+				color: $red;
+			}
+		}
+	}
+}
+.welcome {
+	padding: 5rem 0;
+	background: #000;
+	color: #fff;
+	h1 {
+		font-size: 4rem;
+		margin: 6rem 0 10rem;
+	}
+	.fa-chevron-down {
+		border: 1px solid #fff;
+	    border-radius: 100%;
+	    padding: 0.714rem 1rem;
+	    cursor: pointer;
+	}
+}
